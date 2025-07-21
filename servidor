@@ -193,6 +193,7 @@ class ServidorIRC:
             if not membros:
                 del self.canais[canal_lwr]  
 
+#main
 if __name__ == '__main__':
     servidor_irc = ServidorIRC()
     servidor_irc.iniciar()
